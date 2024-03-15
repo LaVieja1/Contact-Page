@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+:root {
+  height: 100%;
+}
+
+body {
+  background: url("bg-image.svg") no-repeat center;
+  background-size: cover;
+}
