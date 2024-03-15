@@ -74,6 +74,13 @@ input::placeholder {
   color: #cdd5e0;
 }
 
+select {
+  padding: 10px 8px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
 .message {
   grid-column: 1 / -1;
 }
@@ -92,4 +99,5 @@ textarea {
   padding-block: 10px;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
