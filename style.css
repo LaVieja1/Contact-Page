@@ -18,12 +18,27 @@ body {
 }
 
 .container {
-  padding-inline: 140px;
+  padding: 40px 140px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 40px;
+}
+
+.info {
+  text-align: center;
+  color: white;
+  padding-inline: 100px;
+}
+
+.info h1 {
+  font-size: 4rem;
+  margin-bottom: 16px;
+}
+
+.info p {
+  font-size: 2rem;
 }
 
 form {
